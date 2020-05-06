@@ -5,7 +5,7 @@ require "tilt/erubis"
 
 configure do
   enable :sessions
-  set :sesisons_secret, 'secret'
+  set :sessions_secret, 'secret'
 end
 
 helpers do
